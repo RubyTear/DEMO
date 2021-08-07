@@ -18,7 +18,21 @@ exports.addMessage = functions.https.onRequest(async (req, res) => {
     const original = req.query.text;
     const writeResult = await admin.firestore().collection('messages').add({original: original})
 
-    await admin.database().collection('messagesDB').add({notoriginal: original})
+    // Get a database reference to our blog
+    const db = admin.database();
+    const ref = db.ref('server/saving-data/fireblog');
+
+    const usersRef = ref.child('users');
+    await usersRef.set({
+        alanisawesome: {
+            date_of_birth: 'June 23, 1912',
+            full_name: 'Alan Turing'
+        },
+        gracehop: {
+            date_of_birth: 'December 9, 1906',
+            full_name: 'Grace Hopper'
+        }
+    });
 
     res.json({result: `Message with ID: ${writeResult.id} added.`});
 })
