@@ -1,0 +1,20 @@
+{
+    "stock_id": null ,
+    "stock_name": null ,
+    "stock_level": null ,
+    "stock_capacity": null ,
+    "product_id": null ,
+    "product_in_date": null ,
+    "product_out_date": null ,
+    "product_release_date": null ,
+    "product_sold_date": null ,
+
+    "general_info": {
+        "period": null,
+        "deleted": null,
+        "created_by": null,
+        "created_on": null,
+        "updated_by": null,
+        "pudated_on": null
+    }
+}

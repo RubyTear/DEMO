@@ -1,0 +1,20 @@
+{
+    "reservation_id": null ,
+    "account_id": null ,
+    "reservation_date": null ,
+    "reservation_time": null ,
+    "stock_id": null ,
+    "sales_channel": null ,
+    "reservation_budget": null ,
+    "reservation_bonus": null ,
+    "reservation_cancel_risk_rate": null ,
+
+    "general_info": {
+        "period": null,
+        "deleted": null,
+        "created_by": null,
+        "created_on": null,
+        "updated_by": null,
+        "pudated_on": null
+    }
+}

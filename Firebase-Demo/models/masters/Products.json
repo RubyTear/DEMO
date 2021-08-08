@@ -7,6 +7,8 @@
     "product_selling_price": null ,
     "product_size_level": null ,
     "general_info": {
+        "period": null,
+        "deleted": null,
         "created_by": null,
         "created_on": null,
         "updated_by": null,

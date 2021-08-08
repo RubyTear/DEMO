@@ -1,0 +1,20 @@
+{
+    "account_id": null ,
+    "account_level": null ,
+    "user_id": null ,
+    "user_name": null ,
+    "user_birthday": null ,
+    "user_age": null ,
+    "user_address": null ,
+    "user_phone": null ,
+    "user_mail": null ,
+
+    "general_info": {
+        "period": null,
+        "deleted": null,
+        "created_by": null,
+        "created_on": null,
+        "updated_by": null,
+        "pudated_on": null
+    }
+}
