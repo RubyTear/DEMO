@@ -1,0 +1,15 @@
+{
+    "product_id": null ,
+    "product_cd": null ,
+    "product_name": null ,
+    "product_classification": null ,
+    "product_cost_price": null ,
+    "product_selling_price": null ,
+    "product_size_level": null ,
+    "general_info": {
+        "created_by": null,
+        "created_on": null,
+        "updated_by": null,
+        "pudated_on": null
+    }
+}
